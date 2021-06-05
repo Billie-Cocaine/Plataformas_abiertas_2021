@@ -1,6 +1,8 @@
 /*
 
 Manejo de archivos de texto
+parcear información
+imprimir información del archvo
 
 
 Andrés Corrales Castro
