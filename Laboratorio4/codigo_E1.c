@@ -1,3 +1,12 @@
+/*
+
+Manejo de punteros
+
+
+Andrés Corrales Castro
+andres.corralescastro@ucr.ac.cr
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 
