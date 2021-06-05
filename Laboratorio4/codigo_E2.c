@@ -1,4 +1,14 @@
 
+/*
+
+Manejo de momoria y liberacín de memoria 
+mediante free()
+
+
+Andrés Corrales Castro
+andres.corralescastro@ucr.ac.cr
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,7 +23,7 @@ int main ( ) {
 
 	while ( !done ) {
 		printf("Ejecutando ciclo%i\n", j);
-		int n = 10;
+		int n = 10000000;
 		int *a = (int *)malloc (n * sizeof(int)) ;
 		
 		int i ;
