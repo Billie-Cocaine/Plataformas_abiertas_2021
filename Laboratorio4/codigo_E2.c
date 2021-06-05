@@ -22,7 +22,7 @@ int main ( ) {
 	int j = 1;
 
 	while ( !done ) {
-		printf("Ejecutando ciclo%i\n", j);
+		printf("Ejecutando asignación de memoria,  ciclo %i\n", j);
 		int n = 10000000;
 		int *a = (int *)malloc (n * sizeof(int)) ;
 		
@@ -39,6 +39,7 @@ int main ( ) {
 		for ( i = 0; i < n ; i ++){
 
 			free(a);
+			printf("Limpiando memoria asinada%i\n ", i);
 			int *a = (int *)malloc (n * sizeof(int)) ;
 		
 		}
